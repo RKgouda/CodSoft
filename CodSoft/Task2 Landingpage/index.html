@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <h4>Travel Agency</h4>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Service</a></li>
+                </ul>
+            </div>
+            <!-- ============ offcanvas   ============= -->
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">Register</button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Registration</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <form class="row g-3 action=" /">
+                        <div class="form-body">
+                            <div class="col-md-12">
+                                <label for="inputname4" class="form-label">First Name</label>
+                                <input type="text" name="fname" class="form-control" id="inputname4" />
+                            </div>
+                            <div class="col-md-12">
+                                <label for="inputname4" class="form-label">Last Name</label>
+                                <input type="text" name="lname" class="form-control" id="inputname4" />
+                            </div>
+                            <div class="col-md-122">
+                                <label for="inputname4" class="form-label">Email</label>
+                                <input type="email" name="email" class="form-control" id="inputname4" />
+                            </div>
+                            <div class="col-md-12">
+                                <label for="inputname4" class="form-label">Mobile</label>
+                                <input type="number" name="mobile" class="form-control" id="inputname4" />
+                            </div>
+                            <div class="col-md-12">
+                                <label for="inputname4" class="form-label">Password</label>
+                                <input type="password" name="password" class="form-control" id="inputname4" />
+                            </div>
+                            <div class="col-md-4">
+                                <label for="inputname4" class="form-label">Gender</label>
+                            </div>
+                            <input type="radio" name="gender" class="form-check-input" id="inputmale4"
+                                value="Male" />Male <br /><input type="radio" name="gender" class="form-check-input"
+                                id="inputfemale4" value="Female" />Female <br />
+                            <input type="radio" name="gender" class="form-check-input" id="inputother4"
+                                value="Other" />Other
+                        </div>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Submit</button>
+                </div>
+                </form>
+            </div>
+            </div>
+        </nav>
+        <div class="header-row">
+            <div class="header-col">
+                <h1>welcome</h1>
+                <p>Never Let Your Memories Be Greater Then Your Dreams </br><span>Enjoy Your Holiday Trip</span></p>
+                <button class="header-btn"><a href="">Book Now</a></button>
+            </div>
+            <div class="diamond">
+                <div class="header-image">
+                    <img src="images\header1.jpg" alt="img">
+                </div>
+                <div class="header-image">
+                    <img src="images\header2.jpg" alt="img">
+                </div>
+                <div class="header-image">
+                    <img src="images\header3.jpg" alt="img">
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- =======   photos section  ============ -->
+    <section id="photos-section">
+        <h3 class="heading">Exploring the World</h3>
+        <div class="photos-row">
+            <div class="photo-col">
+                <div class="photo">
+                    <img src="images\Houseboat.jpg" alt="img">
+                    <h5>kerala</h5>
+                    <p>Houseboat in backwaters on a background of the palm tree plantation.</p>
+                </div>
+            </div>
+
+            <div class="photo-col">
+                <div class="photo">
+                    <img src="images\sydney.jpg" alt="img">
+                    <h5>Sydney</h5>
+                    <p>Sydney is a sight to behold. Whether you’d rather be at sea level or up in the air, there are
+                        many ways to take it all in.</p>
+                </div>
+            </div>
+
+            <div class="photo-col">
+                <div class="photo">
+                    <img src="images\usa trip.jpg" alt="img">
+                    <h5>USA</h5>
+                    <p>Usa trip Vacation places in usa Where to travel!</p>
+                </div>
+            </div>
+            <div class="photo-col">
+                <div class="photo">
+                    <img src="images\Hawa Mahal.jpg" alt="img">
+                    <h5>Hawa Mahal Jaipur</h5>
+                    <p>Jaipur is also known as pink city, As most of the momuments and city is painted in terracota
+                        pink colour.</p>
+                </div>
+            </div>
+            <div class="photo-col">
+                <div class="photo">
+                    <img src="images\puri.jpg" alt="img">
+                    <h5> Puri</h5>
+                    <p>Shri Jagannath temple located in Puri, Odisha </p>
+                </div>
+            </div>
+            <div class="photo-col">
+                <div class="photo">
+                    <img src="images\meenakshi tmp.jpg" alt="img">
+                    <h5>Meenakshi Temple</h5>
+                    <p>40 Incredible Things People Came Across That Made Them Say, ‘Can’t Believe That’s Real’</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="button-img"><a href="">See more</a></div>
+
+    </section>
+
+    <!-- ========== SERVICE SECTION ========== -->
+    <section id="service-details">
+        <div class="service-heading">
+            <h4>Special Offers</h4>
+            <p>
+                Explore our travel deals and special offers from the most reputable travel brands.</p> </br>
+            <p>We’ll design your perfect travel experience, by leveraging our extensive range of local and global travel
+                suppliers, partnerships, and industry-only accessible amenities you can’t find on your own.</p>
+        </div>
+        <div class="service-heading">
+            <h4>Our services include:
+            </h4>
+            <p>Custom itineraries and personalized service for each of our clients
+                Multi-generational and family-focused travel
+                All-inclusive or adult-only options
+                Ocean and river cruising
+                International and domestic flights
+                Hotel and car reservations
+                Luxury travel experiences with VIP extras
+                Escorted tours and group travel
+                Experiences and tickets
+                Ski and adventure sports experiences
+                Travel insurance
+                and most importantly, an advisor who is by your side every step of the way.</p> </br>
+            <p>We nurture meaningful associations with the most influential travel brands, who recognize
+                us as preferred partners and friends, which guarantees you an extra level of care and
+                privilege. Let us share our world with you</p> </br>
+            <p>Your journey, your way
+                Our experienced travel advisors keep up to date with the latest travel guidance and restrictions, travel
+                trends, and destination hotspots, and are available to offer advice, inspiration, and information to
+                help plan for your next trip. But most of all, we listen – because we know that every traveler wants to
+                experience something different – a unique experience just for you.</p>
+        </div>
+        <div class="service-details">
+            <div class="row-details">
+                <div class="col-details">
+                    <div class="image-container">
+                        <img src="images\Romantic1.jpg" alt="">
+                        <img src="images\Romantic2.jpg" alt="">
+                        <img src="images\Romantic3.jpg" alt="">
+                        <div class="img-details">
+                            <h4><a href="/">Enjoy Romantic Trip</a></h4> </br>
+                            <p>Whether you’re planning your honeymoon in Europe, your first dive trip in Indonesia or an
+                                adventurous 50th in Costa Rica, Huffman Travel Luxury Travel Advisors curate creative,
+                                bespoke itineraries that enrich your life.</p>
+                                <button class="service-btn"><a href="">Book Now</a></button>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <img src="images\family trip1.jpg" alt="">
+                        <img src="images\family trip2.jpg" alt="">
+                        <img src="images\family trip3.jpg" alt="">
+
+                        <div class="img-details">
+                            <h4><a href="/">Make a family Trip</a></h4> </br>
+                            <p>Traveling with family or friends is always an exciting and memorable experience. I have
+                                had the pleasure of traveling with both my family and school friends, and each
+                                experience was unique in its own way. One of my most cherished memories is a road trip
+                                that I took with my family when I was younger.</p>
+                                <button class="service-btn"><a href="">Book Now</a></button>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <img src="images\vacation1.jpg" alt="">
+                        <img src="images\vacation2.jpg" alt="">
+                        <img src="images\vacation3.jpg" alt="">
+                        <div class="img-details">
+                            <h4><a href="/">Enjoy Vacation Trip</a></h4> </br>
+                            <p>A vacation or holiday is either a leave of absence
+                                from a regular job or an instance of leisure travel away from home. People often take a
+                                vacation during specific holiday observances or for specific festivals or celebrations.
+                            </p>
+                            <button class="service-btn"><a href="">Book Now</a></button>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <img src="images\adventure1.jpg" alt="">
+                        <img src="images\adventure2.jpg" alt="">
+                        <img src="images\adventure3.jpg" alt="">
+                        <div class="img-details">
+                            <h4><a href="/">Adventure Trip</a></h4></br>
+                            <p>Adventure travel is an exciting way to explore new and exotic places while staying active
+                                at a comfortable pace to really immerse yourself and connect with the destination on a
+                                physical level. And most importantly, connect with like-minded travelers along the way.
+                            </p>
+                            <button class="service-btn"><a href="">Book Now</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============REVIEW SECTION  ============= -->
+    <section class="review" id="review">
+        <h3 class="heading"> Customer's Review</h3>
+        <div class="review-slider">
+            <div class="wrapper">
+                <div class="slide-box">
+                    <img src="images\ranjit.jpeg" alt="ranjit">
+                    <h3>Ranjit</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos.</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                </div>
+                <div class="slide-box">
+                    <img src="images\ranjit.jpeg" alt="ranjit">
+                    <h3>Ranjit</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos.</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                </div>
+                <div class="slide-box">
+                    <img src="images\ranjit.jpeg" alt="ranjit">
+                    <h3>Ranjit</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos.</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                </div>
+                <div class="slide-box">
+                    <img src="images\ranjit.jpeg" alt="ranjit">
+                    <h3>Ranjit</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos.</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                </div>
+                <div class="slide-box">
+                    <img src="images\ranjit.jpeg" alt="ranjit">
+                    <h3>Ranjit</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos.</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============FOOTER SECTION  ============= -->
+    <section id="footer">
+        <div class="container-footer">
+            <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+        </div>
+        <div class="social-media-icon">
+            <a class="facebook" href="https://www.facebook.com/ranjit.gouda.963?mibextid=ZbWKwL" target="_blank"><i
+                    class="bi bi-facebook"></i></a>
+
+            <a class="instagram" href="https://www.instagram.com/mr._r.k.g?igsh=MXRuNzdqcG1heHJ3NA=="><i
+                    class="bi bi-instagram"></i></a>
+
+            <a class="twitter" href="https://twitter.com/RANJITG94348389"><i class="bi bi-twitter"></i></a>
+
+            <a class="linkedin" href="">
+                <i class="bi bi-linkedin" target="-blank"></i></a>
+        </div>
+    </section>
+</body>
+
+</html>
